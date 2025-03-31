@@ -1,11 +1,14 @@
 {
-  "name": "ads-task-hub-web",
-  "short_name": "ads-task-hub-web",
+  "name": "ADS Task Hub",
+  "short_name": "ADS Task Hub",
+  "description": "Um hub para gerenciar tarefas e projetos do curso de análise e desenvolvimento de sistemas de forma eficiente.",
+  "lang": "pt-BR",
   "theme_color": "#171717",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "orientation": "portrait",
+  "start_url": "./",
   "icons": [
     {
       "src": "icons/icon-144x144.png",
