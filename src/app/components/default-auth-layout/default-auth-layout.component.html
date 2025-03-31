@@ -6,6 +6,10 @@
     <section>
         <h2>{{title}}</h2>
         <ng-content></ng-content>
-        <p>Ainda não tem uma conta?</p>
+        <div class="link-container">
+            <ng-container *ngIf="showLink">
+                {{primaryLinkText}} <a [routerLink]="linkUrl" class="link">{{secondLinkText}}</a>
+            </ng-container>
+        </div>
     </section>
 </main>

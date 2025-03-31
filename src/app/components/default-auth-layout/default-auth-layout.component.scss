@@ -38,5 +38,17 @@ main {
         h2 {
             color: $primary-text-color;
         }
+
+        .link-container {
+            text-align: center;
+            font-size: 10pt;
+            color: $secondary-text-color;
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+                font-weight: 600;
+            }
+        }
     }
 }
