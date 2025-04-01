@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { DefaultAuthLayoutComponent } from '../../components/default-auth-layout/default-auth-layout.component';
+import { AuthLayoutComponent } from '../../shared/auth-layout/auth-layout.component';
 import { PrimaryInputComponent } from '../../components/primary-input/primary-input.component';
 import { PrimaryButtonComponent } from '../../components/primary-button/primary-button.component';
 
 @Component({
   selector: 'app-login',
   imports: [
-    DefaultAuthLayoutComponent,
+    AuthLayoutComponent,
     PrimaryInputComponent,
     PrimaryButtonComponent
   ],

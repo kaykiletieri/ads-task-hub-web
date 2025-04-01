@@ -1,0 +1,51 @@
+@use "../../styles/variables" as *;
+
+main {
+    background-color: $primary-bg-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.error-container {
+    text-align: center;
+
+    h1 {
+        font-size: clamp(50px, 10vw, 120px);
+        color: $primary-color;
+        margin-bottom: 10px;
+        animation: pulse 2s infinite;
+    }
+
+    p {
+        font-size: clamp(16px, 3vw, 24px);
+        color: $secondary-text-color;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: $primary-border-radius;
+        background-color: $primary-color;
+        color: $primary-bg-color;
+        cursor: pointer;
+        font-weight: 600;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .error-container h1 {
+        font-size: 140px;
+    }
+
+    .error-container p {
+        font-size: 24px;
+    }
+}

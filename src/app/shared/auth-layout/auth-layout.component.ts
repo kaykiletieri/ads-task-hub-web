@@ -3,13 +3,13 @@ import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-default-auth-layout',
+  selector: 'app-auth-layout',
   standalone: true,
   imports: [RouterModule, CommonModule],
-  templateUrl: './default-auth-layout.component.html',
-  styleUrl: './default-auth-layout.component.scss'
+  templateUrl: './auth-layout.component.html',
+  styleUrl: './auth-layout.component.scss'
 })
-export class DefaultAuthLayoutComponent {
+export class AuthLayoutComponent {
   @Input() title: string = '';
   @Input() subtitle: string = '';
   @Input() primaryLinkText: string = '';

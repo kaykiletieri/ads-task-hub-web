@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DefaultAuthLayoutComponent } from './default-auth-layout.component';
+import { DefaultAuthLayoutComponent } from './auth-layout.component';
 
 describe('DefaultAuthLayoutComponent', () => {
   let component: DefaultAuthLayoutComponent;
