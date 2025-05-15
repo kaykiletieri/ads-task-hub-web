@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ErrorLayoutComponent } from '../../shared/error-layout/error-layout.component';
-import { AuthLayoutComponent } from "../../shared/auth-layout/auth-layout.component";
+import { ErrorLayoutComponent } from '../../layouts/error-layout/error-layout.component';
+import { AuthLayoutComponent } from "../../layouts/auth-layout/auth-layout.component";
 
 @Component({
   selector: 'app-internal-server-error',
